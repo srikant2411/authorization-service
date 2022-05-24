@@ -5,9 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+
 
 /**
  * Model class for user credentials
@@ -17,10 +15,8 @@ import lombok.NoArgsConstructor;
  *
  */
 
-@Getter
+
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
 @Table(name = "user_credentials")
 public class User {
 	@Id

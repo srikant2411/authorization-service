@@ -5,10 +5,7 @@ import javax.validation.constraints.Size;
 
 import org.springframework.stereotype.Component;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 
 /**
  * Model class for user request sent for logging in
@@ -17,10 +14,7 @@ import lombok.Setter;
  *  @author 894137
  *
  */
-@Setter
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+
 @Component
 public class UserRequest {
 
